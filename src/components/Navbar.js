@@ -91,6 +91,17 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            <Nav.Item>
+              <Nav.Link
+                href="https://dev.to/sthefanyspina"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+              </Nav.Link>
+            </Nav.Item>
+
+
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/sthefanyspina/portfolioSthefanySpina"
