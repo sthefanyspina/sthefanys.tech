@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import HeartDiseasePrediction from "../../Assets/Projects/HeartDiseasePrediction.png";
+import HRAnalyticsDashboard from "../../Assets/Projects/HRAnalyticsDashboard.png";
 import CovidCasesPrediction from "../../Assets/Projects/CovidCasesPrediction.png";
 import CarbonEmissionsImpact from "../../Assets/Projects/CarbonEmissionsImpact.png";
 import CreditScoreClassification from "../../Assets/Projects/CreditScoreClassification.png";
