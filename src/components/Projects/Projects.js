@@ -23,11 +23,11 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={HeartDiseasePrediction}
+              imgPath={HRAnalyticsDashboard}
               isBlog={false}
-              title="Heart Disease Prediction"
-              description="In this project I train a model for the task of heart disease prediction using Machine Learning. For this I will use the Logistic Regression algorithm.."
-              ghLink="https://github.com/sthefanyspina/HeartDisease"
+              title="HR Analytics Dashboard"
+              description="This is a Power BI dashboard using a report/dashboard with the flat file i.e. excel file. In this project I used the Power Query environment where I transformed and cleaned the data, then load it to the Power BI environment for further analysis and and build the dashboard."
+              ghLink="https://github.com/sthefanyspina/HRAnalitycs"
             />
           </Col>
 
