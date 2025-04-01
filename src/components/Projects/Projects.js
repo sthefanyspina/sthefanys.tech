@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import HRAnalyticsDashboard from "../../Assets/Projects/HRAnalyticsDashboard.png";
-import CovidCasesPrediction from "../../Assets/Projects/CovidCasesPrediction.png";
+import CovidCasesPrediction from "../../Assets/Projects/EcommerceSalesAnalysis.png";
 import CarbonEmissionsImpact from "../../Assets/Projects/CarbonEmissionsImpact.png";
 import CreditScoreClassification from "../../Assets/Projects/CreditScoreClassification.png";
 import DemographicsAnalysis from "../../Assets/Projects/DemographicsAnalysis.png";
@@ -33,11 +33,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={CovidCasesPrediction}
+              imgPath={EcommerceSalesAnalysis}
               isBlog={false}
-              title="Covid Cases Predicition"
-              description="This is a machine learning project on Covid-19 cases prediction with Python for the next 30 days.."
-              ghLink="https://github.com/sthefanyspina/CovidCases"
+              title="Ecommerce Sales Analysis"
+              description="This is a Excel dashboard using a report/dashboard with the flat file i.e. excel file. In this project I used the Excel environment where I transformed and cleaned the data for further analysis and and build the dashboard."
+              ghLink="https://github.com/sthefanyspina/EccomerceSalesAnalysis"
 
             />
           </Col>
