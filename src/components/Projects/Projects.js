@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import HRAnalyticsDashboard from "../../Assets/Projects/HRAnalyticsDashboard.png";
-import CovidCasesPrediction from "../../Assets/Projects/EcommerceSalesAnalysis.png";
+import EcommerceSalesAnalysis from "../../Assets/Projects/EcommerceSalesAnalysis.png";
 import CarbonEmissionsImpact from "../../Assets/Projects/CarbonEmissionsImpact.png";
 import CreditScoreClassification from "../../Assets/Projects/CreditScoreClassification.png";
 import DemographicsAnalysis from "../../Assets/Projects/DemographicsAnalysis.png";
