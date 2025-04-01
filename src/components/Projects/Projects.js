@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import HRAnalyticsDashboard from "../../Assets/Projects/HRAnalyticsDashboard.png";
 import EcommerceSalesAnalysis from "../../Assets/Projects/EcommerceSalesAnalysis.png";
-import CarbonEmissionsImpact from "../../Assets/Projects/CarbonEmissionsImpact.png";
+import CarSales from "../../Assets/Projects/CarSales.png";
 import CreditScoreClassification from "../../Assets/Projects/CreditScoreClassification.png";
 import DemographicsAnalysis from "../../Assets/Projects/DemographicsAnalysis.png";
 import MusicRecommendationSystem from "../../Assets/Projects/MusicRecommendationSystem.jpg";
@@ -36,7 +36,7 @@ function Projects() {
               imgPath={EcommerceSalesAnalysis}
               isBlog={false}
               title="Ecommerce Sales Analysis"
-              description="This is a Excel dashboard using a report/dashboard with the flat file i.e. excel file. In this project I used the Excel environment where I transformed and cleaned the data for further analysis and and build the dashboard."
+              description="This is a Excel dashboard using a report/dashboard with the flat file i.e. excel file. In this project I used the Excel environment where I transformed and cleaned the data for further analysis and build the dashboard."
               ghLink="https://github.com/sthefanyspina/EccomerceSalesAnalysis"
 
             />
@@ -44,11 +44,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={CarbonEmissionsImpact}
+              imgPath={CarSales}
               isBlog={false}
-              title="Carbon Emissions Impact"
-              description="In this analysis, we aim to explore the impact of carbon emissions on global temperatures."
-              ghLink="https://github.com/sthefanyspina/CarbonEmissionsImpact/tree/main"              
+              title="Car Sales"
+              description="This is a project made at the IBM Professional Certificate of Data Data Analyst where I used Excel to transformed and cleaned the data build the dashboard with Cognos Analytics"
+              ghLink="https://github.com/sthefanyspina/ProfessionalCertificatesIbmDataAnalyst/tree/main/Data%20Visualization%20and%20Dashboards%20with%20Excel%20and%20Cognos"              
             />
           </Col>
 
