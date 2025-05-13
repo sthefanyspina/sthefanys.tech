@@ -31,16 +31,15 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+            <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={EcommerceSalesAnalysis}
+              imgPath={NBAStatsDashboard}
               isBlog={false}
-              title="Ecommerce Sales Analysis"
-              description="This is a Excel dashboard using a report/dashboard with the flat file i.e. excel file. In this project I used the Excel environment where I transformed and cleaned the data for further analysis and build the dashboard."
-              ghLink="https://github.com/sthefanyspina/EccomerceSalesAnalysis"
-
+              title="NBA Stats Analysis and Dashboard"
+              description="In this project I cleaned and processed three different data sets on NBA statistics, after which I analyzed everyone and created a dashboard to present the results."
+              ghLink="https://github.com/sthefanyspina/Dashboards/tree/main/nba"
             />
-          </Col>
+          </Col>     
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -52,13 +51,14 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+         <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={NBAStatsDashboard}
+              imgPath={EcommerceSalesAnalysis}
               isBlog={false}
-              title="NBA Stats Analysis and Dashboard"
-              description="In this project I cleaned and processed three different data sets on NBA statistics, after which I analyzed everyone and created a dashboard to present the results."
-              ghLink="https://github.com/sthefanyspina/Dashboards/tree/main/nba"
+              title="Ecommerce Sales Analysis"
+              description="This is a Excel dashboard using a report/dashboard with the flat file i.e. excel file. In this project I used the Excel environment where I transformed and cleaned the data for further analysis and build the dashboard."
+              ghLink="https://github.com/sthefanyspina/EccomerceSalesAnalysis"
+
             />
           </Col>
 
