@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import HRAnalyticsDashboard from "../../Assets/Projects/HRAnalyticsDashboard.png";
 import EcommerceSalesAnalysis from "../../Assets/Projects/EcommerceSalesAnalysis.png";
 import CarSales from "../../Assets/Projects/CarSales.png";
-import CreditScoreClassification from "../../Assets/Projects/CreditScoreClassification.png";
+import NBAStatsDashboard from "../../Assets/Projects/NbaStatsDashboard.png";
 import DemographicsAnalysis from "../../Assets/Projects/DemographicsAnalysis.png";
 import MusicRecommendationSystem from "../../Assets/Projects/MusicRecommendationSystem.jpg";
 
@@ -54,11 +54,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={CreditScoreClassification}
+              imgPath={NBAStatsDashboard}
               isBlog={false}
-              title="Credit Score Classification"
-              description="This project is a credit score classification with Machine Learning using Python. Banks and credit card companies"
-              ghLink="https://github.com/sthefanyspina/CreditScoreClassification"
+              title="NBA Stats Analysis and Dashboard"
+              description="In this project I cleaned and processed three different data sets on NBA statistics, after which I analyzed everyone and created a dashboard to present the results."
+              ghLink="https://github.com/sthefanyspina/Dashboards/tree/main/nba"
             />
           </Col>
 
