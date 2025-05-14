@@ -6,7 +6,7 @@ import HRAnalyticsDashboard from "../../Assets/Projects/HRAnalyticsDashboard.png
 import EcommerceSalesAnalysis from "../../Assets/Projects/EcommerceSalesAnalysis.png";
 import CarSales from "../../Assets/Projects/CarSales.png";
 import NBAStatsDashboard from "../../Assets/Projects/NbaStatsDashboard.png";
-import DemographicsAnalysis from "../../Assets/Projects/DemographicsAnalysis.png";
+import TvShowsAndMoviesDashboard from "../../Assets/Projects/SeriesMoviesDashboard.png";
 import MusicRecommendationSystem from "../../Assets/Projects/MusicRecommendationSystem.jpg";
 
 function Projects() {
@@ -64,11 +64,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={DemographicsAnalysis}
+              imgPath={TvShowsAndMoviesDashboard}
               isBlog={false}
-              title="Demographics Analysis"
-              description="In this project, I’ll take you through the task of Demographics Analysis with Python."
-              ghLink="https://github.com/sthefanyspina/DemographicsAnalysis"
+              title="Tv Shows and Movies Analysis and Dashboard"
+              description="In this project I cleaned and processed two different IMDB datasets, after which I analyzed both and created a PowerBi dashboard to present the results."
+              ghLink="https://github.com/sthefanyspina/Dashboards/tree/main/tv_shows_and_movies"
             />
           </Col>
 
