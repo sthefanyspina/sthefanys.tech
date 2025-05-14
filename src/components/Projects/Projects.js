@@ -29,14 +29,24 @@ function Projects() {
               description="This is a Power BI dashboard using a report/dashboard with the flat file i.e. excel file. In this project I used the Power Query environment where I transformed and cleaned the data, then load it to the Power BI environment for further analysis and and build the dashboard."
               ghLink="https://github.com/sthefanyspina/HRAnalitycs"
             />
-          </Col>
+            </Col>
+                
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={TvShowsAndMoviesDashboard}
+              isBlog={false}
+              title="Tv Shows and Movies Analysis and Dashboard"
+              description="This is a Power BI dashboard using a report/dashboard with the csv file. In this project I cleaned and processed two different IMDB datasets, after which I analyzed both and created a PowerBi dashboard to present the results."
+              ghLink="https://github.com/sthefanyspina/Dashboards/tree/main/tv_shows_and_movies"
+            />
+            </Col>
 
             <Col md={4} className="project-card">
             <ProjectCard
               imgPath={NBAStatsDashboard}
               isBlog={false}
               title="NBA Stats Analysis and Dashboard"
-              description="In this project I cleaned and processed three different data sets on NBA statistics, after which I analyzed everyone and created a dashboard to present the results."
+              description="This is a Power BI dashboard using a report/dashboard with the csv file. In this project I cleaned and processed three different data sets on NBA statistics, after which I analyzed everyone and created a dashboard to present the results."
               ghLink="https://github.com/sthefanyspina/Dashboards/tree/main/nba"
             />
           </Col>     
@@ -51,6 +61,16 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={GamesSalesDashboard}
+              isBlog={false}
+              title="Games Sales Analysis and Dashboard"
+              description="This is a PowerBi dashboard using csv file. In this project I cleaned and processed the Games Sales Dataset, after which I analyzed both and created a PowerBi dashboard to present the results."
+              ghLink="https://github.com/sthefanyspina/Dashboards/tree/main/games_sales"
+            />
+          </Col>
+
          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={EcommerceSalesAnalysis}
@@ -62,25 +82,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={TvShowsAndMoviesDashboard}
-              isBlog={false}
-              title="Tv Shows and Movies Analysis and Dashboard"
-              description="In this project I cleaned and processed two different IMDB datasets, after which I analyzed both and created a PowerBi dashboard to present the results."
-              ghLink="https://github.com/sthefanyspina/Dashboards/tree/main/tv_shows_and_movies"
-            />
-          </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={GamesSalesDashboard}
-              isBlog={false}
-              title="Games Sales Analysis and Dashboard"
-              description="This is a PowerBi dashboard using csv file. In this project I cleaned and processed the Games Sales Dataset, after which I analyzed both and created a PowerBi dashboard to present the results."
-              ghLink="https://github.com/sthefanyspina/Dashboards/tree/main/games_sales"
-            />
-          </Col>
         </Row>
       </Container>
     </Container>
