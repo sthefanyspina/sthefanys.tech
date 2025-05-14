@@ -7,7 +7,7 @@ import EcommerceSalesAnalysis from "../../Assets/Projects/EcommerceSalesAnalysis
 import CarSales from "../../Assets/Projects/CarSales.png";
 import NBAStatsDashboard from "../../Assets/Projects/NbaStatsDashboard.png";
 import TvShowsAndMoviesDashboard from "../../Assets/Projects/SeriesMoviesDashboard.png";
-import MusicRecommendationSystem from "../../Assets/Projects/MusicRecommendationSystem.jpg";
+import GamesSalesDashboard from "../../Assets/Projects/GamesSalesDashboard.png";
 
 function Projects() {
   return (
@@ -74,11 +74,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={MusicRecommendationSystem}
+              imgPath={GamesSalesDashboard}
               isBlog={false}
-              title="Music Recommendation System"
-              description="A Music Recommendation System is an application of Data Science that aims to assist users in discovering new and relevant musical content based on their preferences and listening behaviour."
-              ghLink="https://github.com/sthefanyspina/MusicRecommendationSystem"
+              title="Games Sales Analysis and Dashboard"
+              description="This is a PowerBi dashboard using csv file. In this project I cleaned and processed the Games Sales Dataset, after which I analyzed both and created a PowerBi dashboard to present the results."
+              ghLink="https://github.com/sthefanyspina/Dashboards/tree/main/games_sales"
             />
           </Col>
         </Row>
