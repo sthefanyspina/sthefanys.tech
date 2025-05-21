@@ -6,7 +6,6 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import CertificationsCard from "./CertificationCard";
-import Certifications from "./Certifications";
 
 function About() {
   return (
@@ -41,13 +40,13 @@ function About() {
           and <strong className="purple">Licenses </strong>
         </h1>
 
-        <Techstack />
+        <CertificationsCard />
 
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
 
-        <Certifications />
+        <Techstack />
 
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
