@@ -4,6 +4,14 @@ import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
+import Frameworks from "./Frameworks";
+import Databases from "./Databases";
+import DataWarehouses from "./DataWarehouses";
+import ETL from "./ETL";
+import AnalyticalReport from "./AnalyticalReport";
+import BigData from "./BigData";
+import Cloud from "./Cloud";
+import VersionControl from "./VersionControl";
 import Toolstack from "./Toolstack";
 import CertificationsCard from "./CertificationsCard";
 
@@ -43,11 +51,60 @@ function About() {
         <CertificationsCard />
 
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          Programming <strong className="purple">Languages </strong>
         </h1>
 
         <Techstack />
 
+        <h1 className="project-heading">
+          <strong className="purple">Frameworks </strong>
+        </h1>
+
+        <Frameworks />
+
+        <h1 className="project-heading">
+          <strong className="purple">Databases </strong>
+        </h1>
+
+        <Databases />
+
+        <h1 className="project-heading">
+          <strong className="purple">Datawarehouse </strong> Tools
+        </h1>
+
+        <DataWarehouses />
+
+        <h1 className="project-heading">
+          <strong className="purple">ETL & ELT </strong> Tools
+        </h1>
+
+        <ETL />
+
+        <h1 className="project-heading">
+          <strong className="purple">Analytical </strong> Reporting
+        </h1>
+
+        <AnalyticalReport />
+
+        <h1 className="project-heading">
+          <strong className="purple">Big Data </strong> Tools
+        </h1>
+
+        <BigData />
+
+        <h1 className="project-heading">
+          <strong className="purple">Cloud </strong>
+        </h1>
+
+        <Cloud />
+
+        <h1 className="project-heading">
+          <strong className="purple">Version Control </strong> Tools
+        </h1>
+
+        <VersionControl />
+
+            
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
