@@ -7,7 +7,7 @@ import laptopImg from "../../Assets/about.png";
 import Frameworks from "./Frameworks";
 import Databases from "./Databases";
 import DataWarehouses from "./DataWarehouses";
-import ETL from "./ETL";
+import ETLTools from "./ETLTools";
 import AnalyticalReport from "./AnalyticalReport";
 import BigData from "./BigData";
 import Cloud from "./Cloud";
@@ -78,7 +78,7 @@ function About() {
           <strong className="purple">ETL & ELT </strong> Tools
         </h1>
 
-        <ETL />
+        <ETLTools />
 
         <h1 className="project-heading">
           <strong className="purple">Analytical </strong> Reporting
