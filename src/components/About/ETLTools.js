@@ -20,4 +20,4 @@ function Techstack() {
   );
 }
 
-export default ETL;
+export default ETLTools;
