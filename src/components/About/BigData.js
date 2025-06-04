@@ -6,7 +6,7 @@ import {
   SiApachekafka,
 } from "react-icons/si";
 
-function Techstack() {
+function BigData() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
