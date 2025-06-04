@@ -7,7 +7,7 @@ import { VscAzure,
 import { BiLogoGoogleCloud,
 } from "react-icons/bi";
 
-function Techstack() {
+function Cloud() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
