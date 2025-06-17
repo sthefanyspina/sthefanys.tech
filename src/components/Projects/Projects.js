@@ -10,6 +10,9 @@ import TvShowsAndMoviesDashboard from "../../Assets/Projects/SeriesMoviesDashboa
 import GamesSalesDashboard from "../../Assets/Projects/GamesSalesDashboard.png";
 import SuperStoreSalesDasboard from "../../Assets/Projects/SuperStoreSales.png";
 import EletricVehiclesDasboard from "../../Assets/Projects/EletricVehicles.png";
+import RoadAccidentDashboard from "../../Assets/Projects/RoadAccidentDashboard.png";
+import CoffeSalesDashboard from "../../Assets/Projects/CoffeSalesDashboard.png";
+import WalmartSalesAnalysis from "../../Assets/Projects/WalmartSalesAnalysis.png";
 
 function Projects() {
   return (
@@ -24,7 +27,40 @@ function Projects() {
         </p>
         
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={WalmartSalesAnalysis}
+              isBlog={false}
+              title="Walmart Sales Analysis"
+              description="This project is an end-to-end data analysis solution designed to extract critical business insights from Walmart sales data. We utilize Python for data processing and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business questions."
+              ghLink="https://github.com/sthefanyspina/DataAnalysisProjects/tree/main/SQL%20Analysis/walmart_sales"
+            />
+          </Col>
+
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={CoffeSalesDashboard}
+              isBlog={false}
+              title="Coffe Sales Dashboard"
+              description="This project is an end-to-end data analysis solution designed to extract critical business insights from Coffe sales data. We utilize Power Query for data processing and analysis and Excel to structured problem-solving techniques to solve key business questions and build the dashboard."
+              ghLink="https://github.com/sthefanyspina/DataAnalysisProjects/tree/main/Dashboards/coffe_sales"
+            />
+          </Col>
+
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={RoadAccidentDashboard}
+              isBlog={false}
+              title="Road Accident Dashboard"
+              description="This project is an end-to-end data analysis solution designed to extract critical business insights from Road Accident data. We utilize Power Query for data processing and analysis and Excel to structured problem-solving techniques to solve key business questions."
+              ghLink="https://github.com/sthefanyspina/DataAnalysisProjects/tree/main/Dashboards/road_accidents"
+            />
+          </Col>
+            
+            
+            
+            <Col md={4} className="project-card">
             <ProjectCard
               imgPath={SuperStoreSalesDasboard}
               isBlog={false}
