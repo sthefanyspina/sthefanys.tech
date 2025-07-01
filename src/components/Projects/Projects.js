@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import ApacheFlinkSalesAnalysis from "../../Assets/ApacheFlinkSalesAnalysis.png";
+import ApacheFlinkSalesAnalysis from "../../Assets/Projects/ApacheFlinkSalesAnalysis.png";
 import EMRDataProcessing from "../../Assets/Projects/EMRDataProcessing.png";
 import HRAnalyticsDashboard from "../../Assets/Projects/HRAnalyticsDashboard.png";
 import EcommerceSalesAnalysis from "../../Assets/Projects/EcommerceSalesAnalysis.png";
