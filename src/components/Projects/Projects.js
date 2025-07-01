@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import ApacheFlinkSalesAnalysis from "../../Assets/ApacheFlinkSalesAnalysis.png";
+import EMRDataProcessing from "../../Assets/Projects/EMRDataProcessing.png";
 import HRAnalyticsDashboard from "../../Assets/Projects/HRAnalyticsDashboard.png";
 import EcommerceSalesAnalysis from "../../Assets/Projects/EcommerceSalesAnalysis.png";
 import CarSales from "../../Assets/Projects/CarSales.png";
@@ -27,7 +29,27 @@ function Projects() {
         </p>
         
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          
+
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={EMRDataProcessing}
+              isBlog={false}
+              title="Apache Spark - EMR Data Processing"
+              description="TThis project demonstrates the use of Amazon Elastic Map Reduce (EMR) for processing large datasets using Apache Spark. It includes a Spark script for ETL (Extract, Transform, Load) operations, AWS command line instructions for setting up and managing the EMR cluster, and a dataset for testing and demonstration purposes."
+              ghLink="https://github.com/sthefanyspina/DataEngineeringProjects/tree/main/Apache%20Spark/EMRDataProcessing"
+            />
+          </Col>
+
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ApacheFlinkSalesAnalysis}
+              isBlog={false}
+              title="Apache Flink - Sales Analysis"
+              description="This repository contains an end-to-end data engineering project using Apache Flink, focused on performing sales analytics. The project demonstrates how to ingest, process, and analyze sales data, showcasing the capabilities of Apache Flink for big data processing."
+              ghLink="https://github.com/sthefanyspina/DataEngineeringProjects/tree/main/Apache%20Flink/SalesAnalytics"
+            />
+          </Col>
+                
             <Col md={4} className="project-card">
             <ProjectCard
               imgPath={WalmartSalesAnalysis}
