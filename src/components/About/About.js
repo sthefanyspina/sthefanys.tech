@@ -69,12 +69,6 @@ function About() {
         <Databases />
 
         <h1 className="project-heading">
-          <strong className="purple">Datawarehouse </strong> Tools
-        </h1>
-
-        <DataWarehouses />
-
-        <h1 className="project-heading">
           <strong className="purple">ETL & ELT </strong> Tools
         </h1>
 
@@ -86,11 +80,6 @@ function About() {
 
         <AnalyticalReport />
 
-        <h1 className="project-heading">
-          <strong className="purple">Big Data </strong> Tools
-        </h1>
-
-        <BigData />
 
         <h1 className="project-heading">
           <strong className="purple">Cloud </strong>
@@ -116,3 +105,4 @@ function About() {
 }
 
 export default About;
+
