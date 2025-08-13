@@ -24,10 +24,10 @@ function Home2() {
               <br />
               My field of Interest is &nbsp;
               <i>
-                <b className="purple">Data Engineering </b> and
+                <b className="purple">Data Analytics </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Biothecnology.
+                  Statistics.
                 </b>
               </i>
               <br />
@@ -95,3 +95,4 @@ function Home2() {
   );
 }
 export default Home2;
+
