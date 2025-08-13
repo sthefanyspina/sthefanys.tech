@@ -12,7 +12,7 @@ function AboutCard() {
             <br />
             I have completed my degree in <span className="purple">Systems Analysis and Development. </span>
             <br />
-            And completed my Postgraduate degree in <span className="purple"> Data Engineering. </span>
+            And I am doing my postgraduate studies in <span className="purple"> Data Analytics. </span> and <span className="purple"> Applied Statistics </span>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -22,7 +22,7 @@ function AboutCard() {
               - Playing VideoGames
             </li>
             <li className="about-activity">
-              - Watching Series and Movies
+              - Reading books and comics
             </li>
             <li className="about-activity">
               - Playing Music
@@ -40,3 +40,4 @@ function AboutCard() {
 }
 
 export default AboutCard;
+
