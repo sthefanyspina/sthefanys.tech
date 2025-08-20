@@ -9,6 +9,10 @@ function CertificationsCard() {
             <p style={{ textAlign: "justify" }}>
                 <ul>
                     <li className="certications">
+                        Microsoft Certified - <span className="purple">Azure Data Fundamentals</span>
+                    </li>
+  
+                    <li className="certications">
                         Databricks - <span className="purple">Databricks Fundamentals</span>
                     </li>
                     
