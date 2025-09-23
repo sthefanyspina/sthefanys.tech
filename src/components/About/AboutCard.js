@@ -10,7 +10,8 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Sthefany Spina </span>
             from <span className="purple"> Brazil.</span>
             <br />
-            I have completed my degree in <span className="purple">Systems Analysis and Development. </span>
+            I have completed my degree in <span className="purple">Systems Analysis and Development. </span> 
+            and my postgraduate degree in <span className="purple">Data Engineering </span> and <span className="purple">Machine Learning Engineering</span>
             <br />
             And I am doing my postgraduate studies in <span className="purple"> Data Analytics. </span> and <span className="purple"> Applied Statistics </span>
             <br />
@@ -40,4 +41,5 @@ function AboutCard() {
 }
 
 export default AboutCard;
+
 
