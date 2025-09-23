@@ -7,8 +7,8 @@ function Type() {
       options={{
         strings: [
           "Data Analyst",
-          "Data Engineering"
-          "Python Developer",
+          "Data Engineering",
+          "Python Developer"
         ],
         autoStart: true,
         loop: true,
@@ -19,5 +19,6 @@ function Type() {
 }
 
 export default Type;
+
 
 
