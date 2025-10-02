@@ -12,6 +12,10 @@ function ETLTools() {
         <SiApacheairflow />
       </Col>
 
+     <Col xs={4} md={2} className="tech-icons">
+        <SiDatabricks />
+      </Col>
+
     </Row>
   );
 }
