@@ -2,13 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import HRAnalyticsDashboard from "../../Assets/Projects/HRAnalyticsDashboard.png";
 import EcommerceSalesAnalysis from "../../Assets/Projects/EcommerceSalesAnalysis.png";
 import CarSales from "../../Assets/Projects/CarSales.png";
-import NBAStatsDashboard from "../../Assets/Projects/NbaStatsDashboard.png";
-import TvShowsAndMoviesDashboard from "../../Assets/Projects/SeriesMoviesDashboard.png";
-import SuperStoreSalesDasboard from "../../Assets/Projects/SuperStoreSales.png";
 import EletricVehiclesDasboard from "../../Assets/Projects/EletricVehicles.png";
+import HRAnalyticsDasboard from "../../Assets/Projects/hr_analytics.png";
+import SalesDasboard from "../../Assets/Projects/sales_dashboard.png";
+import LoanAnalysisDasboard from "../../Assets/Projects/analise_emprestimos.png";
 import RoadAccidentDashboard from "../../Assets/Projects/RoadAccidentDashboard.png";
 import CoffeSalesDashboard from "../../Assets/Projects/CoffeSalesDashboard.png";
 import WalmartSalesAnalysis from "../../Assets/Projects/WalmartSalesAnalysis.png";
@@ -47,15 +46,33 @@ function Projects() {
             />
           </Col>
             
-            
-            
             <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={SuperStoreSalesDasboard}
+              imgPath={LoanAnalysisDasboard}
               isBlog={false}
-              title="SuperStore Sales Dasboard"
-              description="This is a Power BI dashboard using a report/dashboard with the csv file. In this project I used the Power Query environment where I transformed and cleaned the data, then load it to the Power BI environment for further analysis, used DAX to create some calculatiuons and build the dashboard."
-              ghLink="https://github.com/sthefanyspina/Dashboards/tree/main/superstore_sales"
+              title="Loan Analysis Dasboard"
+              description="This project is an end-to-end data analysis solution designed to extract critical business insights from Road Accident data. We utilize Power Query for data processing and analysis and Excel to structured problem-solving techniques to solve key business questions."
+              ghLink="https://github.com/sthefanyspina/DataAnalysisProjects/tree/main/Dashboards/road_accidents"
+            />
+          </Col>
+
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={HRAnalyticsDasboard}
+              isBlog={false}
+              title="HR Analytics Dasboard"
+              description="This project is an end-to-end data analysis solution designed to extract critical business insights from Road Accident data. We utilize Power Query for data processing and analysis and Excel to structured problem-solving techniques to solve key business questions."
+              ghLink="https://github.com/sthefanyspina/DataAnalysisProjects/tree/main/Dashboards/road_accidents"
+            />
+          </Col>
+
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={SalesDasboard}
+              isBlog={false}
+              title="Sales Dasboard"
+              description="This project is an end-to-end data analysis solution designed to extract critical business insights from Road Accident data. We utilize Power Query for data processing and analysis and Excel to structured problem-solving techniques to solve key business questions."
+              ghLink="https://github.com/sthefanyspina/DataAnalysisProjects/tree/main/Dashboards/road_accidents"
             />
           </Col>
 
@@ -90,27 +107,6 @@ function Projects() {
             </Col>
                 
 
-            <Col md={4} className="project-card">
-              <ProjectCard
-              imgPath={NBAStatsDashboard}
-              isBlog={false}
-              title="NBA Stats Analysis and Dashboard"
-              description="This is a Power BI dashboard using a csv file. In this project I cleaned and processed three different data sets on NBA statistics, after which I analyzed everyone and created a dashboard to present the results."
-              ghLink="https://github.com/sthefanyspina/Dashboards/tree/main/nba"
-              />
-            </Col>     
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={HRAnalyticsDashboard}
-              isBlog={false}
-              title="HR Analytics Dashboard"
-              description="This is a Power BI dashboard using a csv file. In this project I used the Power Query environment where I transformed and cleaned the data, then load it to the Power BI environment for further analysis and build the dashboard."
-              ghLink="https://github.com/sthefanyspina/HRAnalitycs"
-            />
-          </Col>
-                
-
         </Row>
       </Container>
     </Container>
@@ -118,4 +114,5 @@ function Projects() {
 }
 
 export default Projects;
+
 
