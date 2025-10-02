@@ -31,7 +31,7 @@ function Projects() {
               imgPath={CoffeSalesDashboard}
               isBlog={false}
               title="Coffe Sales Dashboard"
-              description="This project is an end-to-end data analysis solution designed to extract critical business insights from Coffe sales data. We utilize Power Query for data processing and analysis and Excel to structured problem-solving techniques to solve key business questions and build the dashboard."
+              description="This project is an end-to-end data analysis solution designed to extract critical business insights from Coffe sales data. Used Power Query for data processing and analysis and Excel to structured problem-solving techniques to solve key business questions and build the dashboard."
               ghLink="https://github.com/sthefanyspina/DataAnalysisProjects/tree/main/Dashboards/coffe_sales"
             />
           </Col>
@@ -41,7 +41,7 @@ function Projects() {
               imgPath={RoadAccidentDashboard}
               isBlog={false}
               title="Road Accident Dashboard"
-              description="This project is an end-to-end data analysis solution designed to extract critical business insights from Road Accident data. We utilize Power Query for data processing and analysis and Excel to structured problem-solving techniques to solve key business questions."
+              description="This project is an end-to-end data analysis solution designed to extract critical business insights from Road Accident data. Utilized Power Query for data processing and analysis and Excel to structured problem-solving techniques to solve key business questions."
               ghLink="https://github.com/sthefanyspina/DataAnalysisProjects/tree/main/Dashboards/road_accidents"
             />
           </Col>
@@ -51,8 +51,8 @@ function Projects() {
               imgPath={LoanAnalysisDasboard}
               isBlog={false}
               title="Loan Analysis Dasboard"
-              description="This project is an end-to-end data analysis solution designed to extract critical business insights from Road Accident data. We utilize Power Query for data processing and analysis and Excel to structured problem-solving techniques to solve key business questions."
-              ghLink="https://github.com/sthefanyspina/DataAnalysisProjects/tree/main/Dashboards/road_accidents"
+              description="This project is an end-to-end data analysis solution designed to extract critical business insights from Loan Request data. Used Power Query for data processing and analysis and PowerBI environment for further analysis and build the dashboard."
+              ghLink="https://github.com/sthefanyspina/DataAnalysisProjects/tree/main/Dashboards/analise_emprestimos"
             />
           </Col>
 
@@ -61,8 +61,8 @@ function Projects() {
               imgPath={HRAnalyticsDasboard}
               isBlog={false}
               title="HR Analytics Dasboard"
-              description="This project is an end-to-end data analysis solution designed to extract critical business insights from Road Accident data. We utilize Power Query for data processing and analysis and Excel to structured problem-solving techniques to solve key business questions."
-              ghLink="https://github.com/sthefanyspina/DataAnalysisProjects/tree/main/Dashboards/road_accidents"
+              description="This project is an end-to-end data analysis solution designed to extract critical business insights from HR data. I used Power Query for data processing and analysis and PowerBI environment for further analysis and build the dashboard."
+              ghLink="https://github.com/sthefanyspina/DataAnalysisProjects/tree/main/Dashboards/hr_analise"
             />
           </Col>
 
@@ -71,8 +71,8 @@ function Projects() {
               imgPath={SalesDasboard}
               isBlog={false}
               title="Sales Dasboard"
-              description="This project is an end-to-end data analysis solution designed to extract critical business insights from Road Accident data. We utilize Power Query for data processing and analysis and Excel to structured problem-solving techniques to solve key business questions."
-              ghLink="https://github.com/sthefanyspina/DataAnalysisProjects/tree/main/Dashboards/road_accidents"
+              description="This project is an end-to-end data analysis solution designed to extract critical business insights from Sales data. Used Power Query for data processing and analysis and PowerBI to structured problem-solving techniques to solve key business questions and build the dashboard."
+              ghLink="https://github.com/sthefanyspina/DataAnalysisProjects/tree/main/Dashboards/sales_dashboard_powerbi"
             />
           </Col>
 
@@ -114,5 +114,6 @@ function Projects() {
 }
 
 export default Projects;
+
 
 
