@@ -6,9 +6,6 @@ import {
   DiPostgresql,
   DiRedis,
 } from "react-icons/di";
-import {
-  SiApachecassandra,
-} from "react-icons/si";
 
 function Databases() {
   return (
@@ -27,10 +24,6 @@ function Databases() {
   
       <Col xs={4} md={2} className="tech-icons">
         <DiRedis />
-      </Col>
-  
-      <Col xs={4} md={2} className="tech-icons">
-        <SiApachecassandra />
       </Col>
 
     </Row>
