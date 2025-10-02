@@ -44,51 +44,63 @@ function About() {
         </Row>
 
         <h1 className="project-heading">
-          <strong className="purple">Certifications </strong>
-          and <strong className="purple">Licenses </strong>
+          <strong className="purple">Certifications</strong>
+          and <strong className="purple">Licenses</strong>
         </h1>
 
         <CertificationsCard />
 
         <h1 className="project-heading">
-          Programming <strong className="purple">Languages </strong>
+          Programming <strong className="purple">Languages</strong>
         </h1>
 
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Frameworks </strong>
+          <strong className="purple">Frameworks</strong>
         </h1>
 
         <Frameworks />
 
         <h1 className="project-heading">
-          <strong className="purple">Databases </strong>
+          <strong className="purple">Databases</strong>
         </h1>
 
         <Databases />
 
         <h1 className="project-heading">
-          <strong className="purple">ETL & ELT </strong> Tools
+          <strong className="purple">ETL & ELT</strong> Tools
         </h1>
 
         <ETLTools />
 
         <h1 className="project-heading">
-          <strong className="purple">Analytical </strong> Reporting
+          <strong className="purple">Big Data</strong> Tools
+        </h1>
+
+        <BigData />
+
+        <h1 className="project-heading">
+          <strong className="purple">Data Warehouse</strong> Tools
+        </h1>
+
+        <DataWarehouses />
+
+        <h1 className="project-heading">
+          <strong className="purple">Analytical</strong> Reporting
         </h1>
 
         <AnalyticalReport />
 
 
         <h1 className="project-heading">
-          <strong className="purple">Cloud </strong>
+          <strong className="purple">Cloud</strong>
         </h1>
 
         <Cloud />
 
         <h1 className="project-heading">
-          <strong className="purple">Version Control </strong> Tools
+          <strong className="purple">Version Control</strong> Tools
         </h1>
 
         <VersionControl />
@@ -105,4 +117,5 @@ function About() {
 }
 
 export default About;
+
 
