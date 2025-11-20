@@ -10,7 +10,6 @@ import SalesDasboard from "../../Assets/Projects/sales_dashboard.png";
 import LoanAnalysisDasboard from "../../Assets/Projects/analise_emprestimos.png";
 import RoadAccidentDashboard from "../../Assets/Projects/RoadAccidentDashboard.png";
 import CoffeSalesDashboard from "../../Assets/Projects/CoffeSalesDashboard.png";
-import WalmartSalesAnalysis from "../../Assets/Projects/WalmartSalesAnalysis.png";
 import DashboardPipeline from "../../Assets/Projects/dashboard_pipeline.png";
 
 function Projects() {
@@ -126,6 +125,7 @@ function Projects() {
 }
 
 export default Projects;
+
 
 
 
