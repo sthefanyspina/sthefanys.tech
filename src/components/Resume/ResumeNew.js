@@ -34,6 +34,11 @@ function ResumeNew() {
         <Row className="resume">
           <Document file={pdf} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 500 ? 1.7 : 0.6} />
+          </Document>
+        </Row>
+
+      '<Row className="resume2">
+          <Document file={pdf} className="d-flex justify-content-center">
             <Page pageNumber={2} scale={width > 500 ? 1.7 : 0.6} />
           </Document>
         </Row>
@@ -55,4 +60,5 @@ function ResumeNew() {
 }
 
 export default ResumeNew;
+
 
