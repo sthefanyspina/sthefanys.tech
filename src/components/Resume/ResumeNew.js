@@ -37,6 +37,12 @@ function ResumeNew() {
           </Document>
         </Row>
 
+        <Row className="resume2">
+          <Document file={pdf} className="d-flex justify-content-center">
+            <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} />
+          </Document>
+        </Row>
+
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
@@ -54,3 +60,4 @@ function ResumeNew() {
 }
 
 export default ResumeNew;
+
