@@ -44,7 +44,7 @@ function About() {
         </Row>
 
         <h1 className="project-heading">
-          <strong className="purple">Certifications</strong>
+          <strong className="purple">Certifications </strong>
           and <strong className="purple">Licenses</strong>
         </h1>
 
