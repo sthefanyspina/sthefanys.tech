@@ -5,7 +5,6 @@ import {
   SiVercel,
 } from "react-icons/si";
 import { 
-  FaDocker,
   FaWindows,
   FaLinux,
 } from "react-icons/fa";
@@ -29,9 +28,6 @@ function Toolstack() {
         <SiVercel />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
-        <FaDocker />
-      </Col>
   
     </Row>
   );
