@@ -7,8 +7,6 @@ import {
   DiPython,
 } from "react-icons/di";
 
-import { FaRProject } from "react-icons/fa";
-
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -28,12 +26,9 @@ function Techstack() {
         <DiPython />
       </Col>
   
-      <Col xs={4} md={2} className="tech-icons">
-        <FaRProject />
-      </Col>
-  
     </Row>
   );
 }
 
 export default Techstack;
+
