@@ -5,12 +5,9 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Databases from "./Databases";
-import DataWarehouses from "./DataWarehouses";
 import AnalyticalReport from "./AnalyticalReport";
-import BigData from "./BigData";
 import Cloud from "./Cloud";
 import VersionControl from "./VersionControl";
-import Toolstack from "./Toolstack";
 import CertificationsCard from "./CertificationsCard";
 
 function About() {
@@ -66,23 +63,6 @@ function About() {
 
         <Databases />
 
-        <h1 className="project-heading">
-          <strong className="purple">ETL & ELT</strong> Tools
-        </h1>
-
-        <ETLTools />
-
-        <h1 className="project-heading">
-          <strong className="purple">Big Data</strong> Tools
-        </h1>
-
-        <BigData />
-
-        <h1 className="project-heading">
-          <strong className="purple">Data Warehouse</strong> Tools
-        </h1>
-
-        <DataWarehouses />
 
         <h1 className="project-heading">
           <strong className="purple">Analytical</strong> Reporting
@@ -104,11 +84,6 @@ function About() {
         <VersionControl />
 
             
-        <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
-        </h1>
-        <Toolstack />
-
       </Container>
     </Container>
   );
