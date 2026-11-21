@@ -6,7 +6,6 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Databases from "./Databases";
 import DataWarehouses from "./DataWarehouses";
-import ETLTools from "./ETLTools";
 import AnalyticalReport from "./AnalyticalReport";
 import BigData from "./BigData";
 import Cloud from "./Cloud";
