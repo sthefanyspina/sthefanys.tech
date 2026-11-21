@@ -6,7 +6,7 @@ function CertificationsCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-            <p style={{ textAlign: "justify" }}>
+            <p style={{ padding: "20px", textAlign: "justify" }}>
                 <ul>
                     <li className="certications">
                         Microsoft Certified - <span className="purple">Azure Data Fundamentals (DP-900)</span>
