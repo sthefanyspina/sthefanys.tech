@@ -9,28 +9,13 @@ function CertificationsCard() {
             <p style={{ textAlign: "justify" }}>
                 <ul>
                     <li className="certications">
-                        Microsoft Certified - <span className="purple">Azure Data Fundamentals</span>
+                        Microsoft Certified - <span className="purple">Azure Data Fundamentals (DP-900)</span>
                     </li>
   
                     <li className="certications">
                         Databricks - <span className="purple">Databricks Fundamentals</span>
                     </li>
                     
-                    <li className="certications">
-                        Google - <span className="purple">Data Analytics</span>
-                    </li>
-                    
-                    <li className="certications">
-                        IBM - <span className="purple">Data Science Professional Certificate</span>
-                    </li>
-            
-                    <li className="certications">
-                        IBM - <span className="purple">Data Analyst Professional Certificate</span>
-                    </li>
-                    
-                    <li className="certications">
-                        IBM - <span className="purple">Data Engineering Professional Certificate</span>
-                    </li>
             </ul>
             </p>
         </blockquote>
