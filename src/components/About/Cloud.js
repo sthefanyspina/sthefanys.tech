@@ -4,8 +4,6 @@ import { FaAws,
 } from "react-icons/fa";
 import { VscAzure,
 } from "react-icons/vsc";
-import { BiLogoGoogleCloud,
-} from "react-icons/bi";
 
 function Cloud() {
   return (
@@ -18,9 +16,6 @@ function Cloud() {
         <VscAzure />
       </Col>
   
-      <Col xs={4} md={2} className="tech-icons">
-        <BiLogoGoogleCloud />
-      </Col>
 
     </Row>
   );
