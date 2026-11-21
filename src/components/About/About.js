@@ -31,14 +31,14 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "0px", paddingBottom: "50px" }}
+            style={{ paddingTop: "20px", paddingBottom: "50px" }}
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
 
-        <h1 className="project-heading">
+        <h1 style={paddingBottom: "40px" } className="project-heading">
           <strong className="purple">Certifications </strong>
           and <strong className="purple">Licenses</strong>
         </h1>
