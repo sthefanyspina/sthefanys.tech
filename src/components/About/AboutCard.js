@@ -11,25 +11,10 @@ function AboutCard() {
             from <span className="purple"> Brazil.</span>
             <br />
             I have completed my degree in <span className="purple">Systems Analysis and Development. </span> 
-            and my postgraduate degree in <span className="purple">Data Engineering </span> and <span className="purple">Machine Learning Engineering</span>
+            and my postgraduates degrees in <span className="purple">Data Engineering and Machine Learning Engineering</span> and <span className="purple"> Data Analytics and Applied Statistics </span>
+      
             <br />
-            And I am doing my postgraduate studies in <span className="purple"> Data Analytics. </span> and <span className="purple"> Applied Statistics </span>
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
-          </p>
-          <ul>
-            <li className="about-activity">
-              - Playing VideoGames
-            </li>
-            <li className="about-activity">
-              - Reading books and comics
-            </li>
-            <li className="about-activity">
-              - Playing Music
-            </li>
-            </ul>
-            <br />
+
             <p style={{ color: "rgb(155 126 172)" }}>
             "Do or do not, there is no try!"{" "}
           </p>
@@ -41,5 +26,6 @@ function AboutCard() {
 }
 
 export default AboutCard;
+
 
 
