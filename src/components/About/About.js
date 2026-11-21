@@ -51,11 +51,6 @@ function About() {
 
         <Techstack />
 
-        <h1 className="project-heading">
-          <strong className="purple">Frameworks</strong>
-        </h1>
-
-        <Frameworks />
 
         <h1 className="project-heading">
           <strong className="purple">Databases</strong>
