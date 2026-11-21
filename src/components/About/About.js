@@ -4,7 +4,6 @@ import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
-import Frameworks from "./Frameworks";
 import Databases from "./Databases";
 import DataWarehouses from "./DataWarehouses";
 import ETLTools from "./ETLTools";
