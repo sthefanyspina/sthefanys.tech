@@ -4,7 +4,6 @@ import {
   DiMongodb,
   DiMysql,
   DiPostgresql,
-  DiRedis,
 } from "react-icons/di";
 
 function Databases() {
@@ -20,10 +19,6 @@ function Databases() {
   
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
-      </Col>
-  
-      <Col xs={4} md={2} className="tech-icons">
-        <DiRedis />
       </Col>
 
     </Row>
