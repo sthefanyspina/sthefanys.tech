@@ -38,7 +38,7 @@ function About() {
           </Col>
         </Row>
 
-        <h1 style={paddingBottom: "40px" } className="project-heading">
+        <h1 style={{paddingBottom: "40px" }} className="project-heading">
           <strong className="purple">Certifications </strong>
           and <strong className="purple">Licenses</strong>
         </h1>
